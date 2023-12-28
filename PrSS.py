@@ -1,7 +1,6 @@
 #PRSS
 #(0)(1,1) in BMS
 n = 10
-shift = n
 goodpart = []
 badpart = []
 row = 1
@@ -9,7 +8,6 @@ row = 1
 #initial seq
 c = 0
 while c != n+1:
-    c2 = shift
     goodpart.append(c)
     c = c+1
 print("seq:",goodpart)
